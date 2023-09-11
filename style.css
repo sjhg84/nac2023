@@ -103,10 +103,9 @@
     display: block;
     position: absolute;
     inset: 15px 12px 0;
-    background: red;
     z-index: 1;
     border-radius: 20px;
-    background: url(https://cch-files.edge.live.ds25.io/cch/v/6a50f05c-d80c-431e-83f4-1bd0bf1d9722/files/64f70399b6f89_1080x1080.png) no-repeat center center rgba(0, 0, 0, 0.6);
+    background: url(https://cch-files.edge.live.ds25.io/cch/v/6a50f05c-d80c-431e-83f4-1bd0bf1d9722/files/64f70399b6f89_1080x1080.png) no-repeat center center red;
     background-size: 250px 250px;
 }
 [class*="soldout"] .pgb-custom-mybutton .pgb-buy-button {
