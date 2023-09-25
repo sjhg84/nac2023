@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-
+.pgb-buy-button {text-align:center !important}
 
 html, body {
   scroll-behavior: smooth !important;
