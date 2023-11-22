@@ -83,6 +83,6 @@ const srCart = {
 };
 
 document.addEventListener("DOMContentLoaded", function () {
-	srCart.trackData['aff'] = 'affiliateName'
+	//srCart.trackData['aff'] = 'affiliateName'
 	srCart.init();
 });
