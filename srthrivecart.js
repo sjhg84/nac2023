@@ -70,6 +70,9 @@ const srCart = {
 			combineParams += combineParams === "" ? "" : "&";
 			combineParams += this.trackData[key] !== undefined  ? `passthrough[${key}]=${this.trackData[key]}` : '';
 		}
+		if(this.getParams('coupon')) {
+			combineParams += "&coupon=" + this.getParams('coupon');
+		}
 		return combineParams;
 	},
 	help: function () {
